@@ -33,7 +33,7 @@ img {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -72,6 +72,11 @@ body {
 
 .header {
     padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-border {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -107,13 +112,13 @@ body {
 }
 
 .header-list {
-    margin-top: 24px;
+
     gap: 40px;
 }
 
 .header-item {
     text-decoration: none;
-    margin-bottom: 24px;
+
 }
 
 .header-link {
@@ -135,7 +140,7 @@ body {
     color: var(--color-slate);
     text-decoration: none;
     display: flex;
-    margin-top: 24px;
+
 }
 
 .header-address-list {
@@ -166,8 +171,8 @@ body {
 /* HERO */
 .hero {
     background-color: var(--color-navy-blue);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {}
@@ -204,10 +209,9 @@ body {
     flex-grow: 0;
     cursor: pointer;
     border-radius: 4px;
-    min-width: 170px;
-    height: 56px;
     margin: 0 auto;
     margin-top: 48px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -232,7 +236,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 }
 
@@ -251,7 +255,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
 }
 
@@ -314,8 +318,6 @@ body {
 }
 
 .team-description {
-    width: 232px;
-    height: 56px;
     gap: 8px;
     display: flex;
     flex-direction: column;
@@ -323,8 +325,6 @@ body {
     align-items: center;
     padding: 32px 16px;
     margin: 0 auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
 
 }
 
@@ -344,7 +344,7 @@ body {
     text-transform: uppercase;
     color: var(--color-iris);
     text-decoration: none;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-logo-item {
@@ -374,7 +374,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 
 }
@@ -436,6 +435,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    margin-bottom: 8px;
 }
 
 .project-text {
@@ -449,4 +449,5 @@ body {
 .project-description {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
